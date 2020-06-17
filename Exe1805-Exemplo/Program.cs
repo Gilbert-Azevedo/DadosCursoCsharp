@@ -9,7 +9,7 @@ namespace Exe1805_Exemplo
             int a, b, n;
             long soma;
             string s = Console.ReadLine();
-            string[] v = s.Split(" ");
+            string[] v = s.Split(' ');
             a = int.Parse(v[0]);
             b = int.Parse(v[1]);
             n = b - a + 1;
