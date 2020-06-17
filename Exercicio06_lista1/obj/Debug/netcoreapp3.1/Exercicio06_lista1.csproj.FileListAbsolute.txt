@@ -1,0 +1,13 @@
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio06_lista1\obj\Debug\netcoreapp3.1\Exercicio06_lista1.csprojAssemblyReference.cache
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio06_lista1\obj\Debug\netcoreapp3.1\Exercicio06_lista1.AssemblyInfoInputs.cache
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio06_lista1\obj\Debug\netcoreapp3.1\Exercicio06_lista1.AssemblyInfo.cs
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio06_lista1\obj\Debug\netcoreapp3.1\Exercicio06_lista1.csproj.CoreCompileInputs.cache
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio06_lista1\bin\Debug\netcoreapp3.1\Exercicio06_lista1.exe
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio06_lista1\bin\Debug\netcoreapp3.1\Exercicio06_lista1.deps.json
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio06_lista1\bin\Debug\netcoreapp3.1\Exercicio06_lista1.runtimeconfig.json
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio06_lista1\bin\Debug\netcoreapp3.1\Exercicio06_lista1.runtimeconfig.dev.json
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio06_lista1\bin\Debug\netcoreapp3.1\Exercicio06_lista1.dll
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio06_lista1\bin\Debug\netcoreapp3.1\Exercicio06_lista1.pdb
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio06_lista1\obj\Debug\netcoreapp3.1\Exercicio06_lista1.dll
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio06_lista1\obj\Debug\netcoreapp3.1\Exercicio06_lista1.pdb
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio06_lista1\obj\Debug\netcoreapp3.1\Exercicio06_lista1.genruntimeconfig.cache
