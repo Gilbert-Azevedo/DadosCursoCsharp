@@ -1,0 +1,13 @@
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exe1805-Exemplo\bin\Debug\netcoreapp3.1\Exe1805-Exemplo.exe
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exe1805-Exemplo\bin\Debug\netcoreapp3.1\Exe1805-Exemplo.deps.json
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exe1805-Exemplo\bin\Debug\netcoreapp3.1\Exe1805-Exemplo.runtimeconfig.json
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exe1805-Exemplo\bin\Debug\netcoreapp3.1\Exe1805-Exemplo.runtimeconfig.dev.json
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exe1805-Exemplo\bin\Debug\netcoreapp3.1\Exe1805-Exemplo.dll
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exe1805-Exemplo\bin\Debug\netcoreapp3.1\Exe1805-Exemplo.pdb
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exe1805-Exemplo\obj\Debug\netcoreapp3.1\Exe1805-Exemplo.csprojAssemblyReference.cache
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exe1805-Exemplo\obj\Debug\netcoreapp3.1\Exe1805-Exemplo.AssemblyInfoInputs.cache
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exe1805-Exemplo\obj\Debug\netcoreapp3.1\Exe1805-Exemplo.AssemblyInfo.cs
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exe1805-Exemplo\obj\Debug\netcoreapp3.1\Exe1805-Exemplo.csproj.CoreCompileInputs.cache
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exe1805-Exemplo\obj\Debug\netcoreapp3.1\Exe1805-Exemplo.dll
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exe1805-Exemplo\obj\Debug\netcoreapp3.1\Exe1805-Exemplo.pdb
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exe1805-Exemplo\obj\Debug\netcoreapp3.1\Exe1805-Exemplo.genruntimeconfig.cache
