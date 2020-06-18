@@ -67,9 +67,8 @@ namespace ExercicioURI2670
            Console.WriteLine(melhorandar);
 
             Console.ReadKey();
-
+                      
            
-            totalandar3 = somaandar31 + somaandar32;
         }
     }
 }
