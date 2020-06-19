@@ -6,8 +6,6 @@ namespace Exercicio11_Lista2
     {
         static void Main(string[] args)
         {
-            static void Main(string[] args)
-            {
                 Console.WriteLine("Digite uma data no formato dd/mm/aaaa");
                 string data = Console.ReadLine();
                 string[] vdata = data.Split('/');
@@ -16,7 +14,7 @@ namespace Exercicio11_Lista2
                 int ano = int.Parse(vdata[2]);
 
                 Console.WriteLine($" A data informada é {dia}/{mes}/{ano}");
-                /*
+                
                 switch (mes) 
                 { 
                     case 1:
@@ -60,11 +58,11 @@ namespace Exercicio11_Lista2
                     break;                                        
                 }
 
-                */
+               
 
                 Console.ReadKey();
 
-            }
+            
         }
     }
 }
