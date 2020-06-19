@@ -15,33 +15,35 @@ namespace Exercicio11_Lista2
                 int mes = int.Parse(vdata[1]);
                 int ano = int.Parse(vdata[2]);
 
+                Console.WriteLine($" A data informada é {dia}/{mes}/{ano}");
+                /*
                 switch (mes) 
                 { 
-                    case 01:
+                    case 1:
                         Console.WriteLine($" A data é {dia} de janeiro de {ano}"); 
                         break;
-                    case 02:
+                    case 2:
                         Console.WriteLine($" A data é {dia} de fevereiro de {ano}"); 
                         break;
-                    case 03:
+                    case 3:
                         Console.WriteLine($" A data é {dia} de março de {ano}"); 
                         break;
-                    case 04:
+                    case 4:
                         Console.WriteLine($" A data é {dia} de abril de {ano}"); 
                         break;
-                    case 05:
+                    case 5:
                         Console.WriteLine($" A data é {dia} de maio de {ano}"); 
                         break;
-                    case 06:
+                    case 6:
                         Console.WriteLine($" A data é {dia} de junho de {ano}"); 
                         break;
-                    case 07:
+                    case 7:
                         Console.WriteLine($" A data é {dia} de julho de {ano}"); 
                         break;
-                    case 08:
+                    case 8:
                         Console.WriteLine($" A data é {dia} de agosto de {ano}"); 
                         break;
-                    case 09:
+                    case 9:
                         Console.WriteLine($" A data é {dia} de setembro de {ano}"); 
                         break;
                     case 10:
@@ -57,6 +59,8 @@ namespace Exercicio11_Lista2
                         Console.WriteLine($"A data informada não é válida");
                     break;                                        
                 }
+
+                */
 
                 Console.ReadKey();
 
