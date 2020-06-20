@@ -9,34 +9,33 @@ namespace ExercicioURI1021
             string novovalor = Console.ReadLine();
 
             string[] nvalor = novovalor.Split('.');
-            double parteint = double.Parse(nvalor[0]);
-            double partefrac = double.Parse(nvalor[1]);
+            int parteint = int.Parse(nvalor[0]);
+            int partefrac = int.Parse(nvalor[1]);
                  
-             double n100 = Math.Floor(parteint/100.00);
-             parteint = parteint%100.00;
-             double n50 = Math.Floor(parteint /50.00);
-             parteint = parteint% 50.00;
-             double n20 = Math.Floor(parteint /20.00);
-             parteint = parteint%20.00;
-             double n10 = Math.Floor(parteint /10.00);
-             parteint = parteint%10.00;
-             double n5 = Math.Floor(parteint /5.00);
-             parteint = parteint % 5.00;
-             double n2 = Math.Floor(parteint /2.00);
-             parteint =parteint % 2.00;
-             double m1 = Math.Floor(parteint);
+             int n100 = parteint/100;
+             parteint = parteint%100;
+             int n50 = parteint/50;
+             parteint = parteint% 50;
+            int n20 = parteint/20;
+             parteint = parteint%20;
+            int n10 = parteint/10;
+             parteint = parteint%10;
+            int n5 = parteint/5;
+             parteint = parteint%5;
+            int n2 = parteint/2;
+             parteint =parteint%2;
+            int m1 = parteint;
                
-             partefrac = partefrac/100.00;
-                             
-             double m05 = Math.Floor(partefrac /.5);
-             partefrac = partefrac % .5;
-             double m025 = Math.Floor(partefrac /.25);
-             partefrac = partefrac % .25;
-             double m01 = Math.Floor(partefrac / .1);
-             partefrac = partefrac % .1;
-             double m005 = Math.Floor(partefrac / .05);
-             partefrac = partefrac % .05;
-             double m001 = Math.Floor(partefrac / .01);
+                               
+             int m05 = partefrac /50;
+             partefrac = partefrac % 50;
+            int m025 = partefrac /25;
+             partefrac = partefrac %25;
+            int m01 = partefrac / 10;
+             partefrac = partefrac % 10;
+            int m005 = partefrac / 5;
+             partefrac = partefrac % 5;
+            int m001 = partefrac;
                
                Console.WriteLine("NOTAS:");
                Console.WriteLine($"{n100} nota(s) de R$ 100.00");
