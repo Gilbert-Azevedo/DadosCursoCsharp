@@ -15,18 +15,18 @@ namespace Exercicio03
         private decimal valorBoleto, valorPago;
         private Pagamento situacaoPagamento;
 
-        public Boleto(string cod, DateTime emissao, DateTime venc, DateTime datepag, decimal valor)
+        public Boleto(string cod, DateTime emissao, DateTime venc, decimal valor)
         {
             if (cod != null) codBarras = cod;
             dateEmissao = emissao;
             dateVencimento = venc;
-            datePagto = datepag;
             if (valor > 0) valorBoleto = valor;
 
         }
 
         public void Pagar(decimal valor)
         {
+            datePagto = DateTime.Now;
             if (valor <= valorBoleto) valorPago = valor;
         }
 
@@ -55,8 +55,8 @@ namespace Exercicio03
 
         public override string ToString()
         { 
-          return $" Código de Barras :  {codBarras}  - Data de Emissão : {dateEmissao:dd/MM/yyyy} - Data de Vencimento : {dateVencimento:dd/MM/yyyy} " +
-                $"- Data de Pagamento : {datePagto:MM / dd / yyyy}  - Valor do Boleto (R$) = {valorBoleto:0.00} - Valor Pago (R$) = {valorPago:0.00} " +
+          return $" Código de Barras :  {codBarras}  - Data de Emissão : {dateEmissao:dd/MM/yyyy} - Data de Vencimento : {dateVencimento:dd/MM/yyyy} \n" +
+                $"- Data de Pagamento : {datePagto:MM / dd / yyyy}  - Valor do Boleto (R$) = {valorBoleto:0.00} - Valor Pago (R$) = {valorPago:0.00} \n" +
                 $"- Situação: {Situacao()}";
         }
 

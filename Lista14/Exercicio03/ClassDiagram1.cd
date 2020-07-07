@@ -6,7 +6,7 @@
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
     <NestedTypes>
-      <Enum Name="Exercicio03.Boleto.Pagamento" Collapsed="true">
+      <Enum Name="Exercicio03.Boleto.Pagamento">
         <TypeIdentifier>
           <NewMemberFileName>Class1.cs</NewMemberFileName>
         </TypeIdentifier>
