@@ -34,25 +34,27 @@ namespace Exercicio04
 
         public Dias GetDias()
         {
+                     
             return dias;
         }
 
         public Turno  GetTurno()
         {
-            return turno;
+           return turno;
         }
 
         public override string ToString()
         {
             return $" Nome do Estagiário: {nome} - CPF: {cpf} - Telefone: {telefone} \n" +
-                   $" - Dias de Trabalho:{dias}  - Turno de Trabalho {turno} " ;
+                   $" - Dias de Trabalho:  {dias}  - Turno de Trabalho:  {turno} " ;
         }
 
-
+        [Flags]
         public enum Dias {
 
-            segunda = 1, terça = 2, quarta = 3, quinta = 4, sexta = 5
+            nenhum =0, segunda = 2, terca = 4, quarta = 8, quinta = 16, sexta = 32
         }
+        [Flags]
         public enum Turno
         {
             matutino = 1, vespertino = 2, noturno = 3

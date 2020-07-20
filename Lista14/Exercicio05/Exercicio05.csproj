@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D4CD0050-0A49-4A67-9609-BEB9FB7E567E}</ProjectGuid>
+    <ProjectGuid>{4743DDFD-7153-475E-A2C8-893CD0BB3809}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Exercicio04</RootNamespace>
-    <AssemblyName>Exercicio04</AssemblyName>
+    <RootNamespace>Exercicio05</RootNamespace>
+    <AssemblyName>Exercicio05</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,7 +49,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
