@@ -12,8 +12,10 @@ namespace Exercicio05
         {
             {
             Loja novaloja = new Loja();
-           Aplicativo a1 = new Aplicativo { Nome = "Word      ", Categoria = " Editor de texto          ", Preco = 150,00 } ;
+            Aplicativo a1 = new Aplicativo( "Word      "," Editor de texto      ", 150.00) ;
             novaloja.Inserir(a1);
+
+
           /* Aplicativo a2 = new Aplicativo { Assunto = "Curso Moodle            ", Local = "Virtual            ", Data = DateTime.Parse("03/08/2020") };
             novaloja.Inserir(a2);
             Aplicativo a3 = new Aplicativo { Assunto = "Reunião de Grupo        ", Local = "Remoto             ", Data = DateTime.Parse("10/08/2020") };
@@ -25,12 +27,12 @@ namespace Exercicio05
             Aplicativo a6 = new Compromisso { Assunto = "Formatura               ", Local = "Ginásio            ", Data = DateTime.Parse("20/12/2020") };
             novaloja.Inserir(a6);*/
 
-            Console.WriteLine(" Lista de Compromissos ");
+            Console.WriteLine(" Lista de Aplicativos ");
 
 
             foreach (Compromisso listaapps in novaloja.Listar())
             {
-                Console.WriteLine(listacomps.ToString());
+                Console.WriteLine(listaapps.ToString());
             }
 
 

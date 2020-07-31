@@ -12,30 +12,45 @@ namespace Exercicio05a
         {
             {
                 Loja novaloja = new Loja();
-                Aplicativo a1 = new Aplicativo("Word", "Editor", 150);                                   //{ Nome = " Word      ", Categoria = "Editor            ", Preco = decimal.Parse(150,00)};
+                Aplicativo a1 = new Aplicativo("Word         ","Editor  ", 150);                                   //{ Nome = " Word      ", Categoria = "Editor            ", Preco = decimal.Parse(150,00)};
                 novaloja.Inserir(a1);
-              
-                
-                /* Compromisso c2 = new Compromisso { Assunto = "Curso Moodle            ", Local = "Virtual            ", Data = DateTime.Parse("03/08/2020") };
-                novagenda.Inserir(c2);
-                Compromisso c3 = new Compromisso { Assunto = "Reunião de Grupo        ", Local = "Remoto             ", Data = DateTime.Parse("10/08/2020") };
-                novagenda.Inserir(c3);
-                Compromisso c4 = new Compromisso { Assunto = "Aula inaugural          ", Local = "Auditório          ", Data = DateTime.Parse("12/09/2020") };
-                novagenda.Inserir(c4);
-                Compromisso c5 = new Compromisso { Assunto = "Reunião de orientação   ", Local = "Sala de Reuniões   ", Data = DateTime.Parse("15/09/2020") };
-                novagenda.Inserir(c5);
-                Compromisso c6 = new Compromisso { Assunto = "Formatura               ", Local = "Ginásio            ", Data = DateTime.Parse("20/12/2020") };
-                novagenda.Inserir(c6);*/
 
-                Console.WriteLine(" Lista de Compromissos ");
+                Aplicativo a2 = new Aplicativo("Excel        ","Planilha", 250);                                  
+                novaloja.Inserir(a2);
+
+                Aplicativo a3 = new Aplicativo("F1GP         ","Jogos   ", 300);
+                novaloja.Inserir(a3);
+
+                Aplicativo a4 = new Aplicativo("AgendaFacil  ","Agenda  ", 80);
+                novaloja.Inserir(a4);
+
+                Console.WriteLine(" Lista de Aplicativos ");
 
 
-                foreach (Compromisso listacomps in novaloja.Listar())
+                foreach (Aplicativo listacomps in novaloja.Listar())
                 {
                     Console.WriteLine(listacomps.ToString());
                 }
 
                 Console.ReadKey();
+
+                Console.WriteLine("   ");
+
+                Console.WriteLine("Teste de exclusão de um Aplicativo");
+                novaloja.Excluir(a4);
+
+                foreach (Aplicativo listaapps in novaloja.Listar())
+                {
+                    Console.WriteLine(listaapps.ToString());
+                }
+
+
+                Console.ReadKey();
+
+
+
+
             }
+        }
     }
 }

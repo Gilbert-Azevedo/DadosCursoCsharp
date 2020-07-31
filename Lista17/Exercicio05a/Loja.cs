@@ -19,7 +19,7 @@ namespace Exercicio05a
                 apps[k++] = app;
             else
             {
-                if (k == apps.Length) Array.Resize(ref app, 2 * app.Length);
+                if (k == apps.Length) Array.Resize(ref apps, 2 * apps.Length);
                 apps[k++] = app;
             }
         }
@@ -27,17 +27,17 @@ namespace Exercicio05a
         {
             int i = 0;
             int j = 0;
-            while ((app[i] != app) && (i < app.Length)) i++;
-            app[i] = null;
+            while ((apps[i] != app) && (i < apps.Length)) i++;
+            apps[i] = null;
             for (j = i; j < k; j++)
-                app[j] = app[j + 1];
+                apps[j] = apps[j + 1];
 
-            Array.Resize(ref app, app.Length - 1);
+            Array.Resize(ref apps, apps.Length - 1);
             k--;
         }
         public Aplicativo[] Listar()
         {
-            Aplicativo[] novosapps = new aplicativo[k];
+            Aplicativo[] novosapps = new Aplicativo[k];
 
             Array.Copy(apps, novosapps, k);
 
@@ -45,26 +45,25 @@ namespace Exercicio05a
 
         }
 
-        public Aplicativo[] Pesquisar(string cat)
+       /* public Aplicativo[] Pesquisar(string cat)
         {
             int napps = 0;
             int j = 0;
             for (int i = 0; i < k; i++)
-                if (apps[i].categoria == cat) napps++;
+                if (apps[i].Categoria == cat) napps++;
 
             Aplicativo[] listapesquisa = Aplicativo[napps];
 
             for (int i = 0; i < k; i++)
             {
-                if (apps[i].categoria == cat)
+                if (apps[i].Categoria == cat)
                     listapesquisa[j++] = apps[i];
 
             }
-
             return listapesquisa;
 
         }
-
+     */
 
 
 

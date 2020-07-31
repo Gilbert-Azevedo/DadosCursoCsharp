@@ -11,6 +11,7 @@ namespace Exercicio05a
         private int curtidas;
         private string nome, categoria;
         private decimal preco;
+
         public Aplicativo(string n, string c, decimal p)
         {
             if (n != null) nome = n;
@@ -18,10 +19,10 @@ namespace Exercicio05a
             if (p >= 0) preco = p;
 
         }
-        public string Nome { get; set; }
-        public string Categoria { get; set; }
+        public string Nome { get; set; } 
+        public string Categoria { get; set; } 
         public string Preco { get; set; }
-        public int Curtidas { get { return curtidas; } }
+        public int Curtidas  { get { return curtidas; } } 
 
         public void Curtir()
         {
@@ -30,7 +31,7 @@ namespace Exercicio05a
 
         public override string ToString()
         {
-            return $" Nome do aplicativo {Nome}  | Categoria:  {Categoria} |  Preço:  {Preco}";
+            return $" Nome do aplicativo:   {nome}  | Categoria:  {categoria} |  Preço:  {preco:0.00}";
         }
 
 
