@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Exemplo01
+namespace Exemplo02
 {
     /// <summary>
     /// Interação lógica para MainWindow.xam
@@ -25,9 +25,13 @@ namespace Exemplo01
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Click_Area(object sender, RoutedEventArgs e)
         {
-            txt.Text = "Olá Mundo";
+            Triangulo x = new Triangulo();
+            x.Base = double.Parse(txtBase.Text);
+            x.Altura = double.Parse(txtAltura.Text);
+            txtArea.Text = x.Area.ToString(); 
+
         }
     }
 }

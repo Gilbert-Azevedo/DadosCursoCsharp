@@ -8,7 +8,8 @@
         Title="Bem-vindo ao WPF" Height="150" Width="300">
     <Grid Margin="0,7,0,-7">
         <Button Content="Clique aqui" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <TextBlock x:Name="txt" Text=" " HorizontalAlignment="Left" Margin="10,35,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"/>
+        <TextBlock x:Name="txt" HorizontalAlignment="Left" Margin="10,35,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+
 
     </Grid>
 </Window>
