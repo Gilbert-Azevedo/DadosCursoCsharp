@@ -1,18 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercicio05
+namespace Exercicio05a
 {
     class Loja
     {
         private Aplicativo[] apps = new Aplicativo[10];
         private int k;
-        public string Nome { get; set; } 
-        public int Qtd { get; set; } 
+        public string Nome { get; set; }
+        public int Qtd { get; set; }
 
         public void Inserir(Aplicativo app)
         {
@@ -62,7 +61,7 @@ namespace Exercicio05
 
             }
 
-          return listapesquisa;
+            return listapesquisa;
 
         }
 
