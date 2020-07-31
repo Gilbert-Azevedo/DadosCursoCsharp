@@ -68,7 +68,7 @@ namespace Exercicio04
             Console.WriteLine("  ");
             Console.ReadKey();
             Console.WriteLine("Teste de exclusão de um compromisso");
-            novagenda.Excluir(c1);
+            novagenda.Excluir(c2);
 
             foreach (Compromisso listacomps in novagenda.Listar())
             {

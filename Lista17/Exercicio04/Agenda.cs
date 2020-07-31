@@ -29,9 +29,12 @@ namespace Exercicio04
         public void Excluir(Compromisso c)
         {
             int i = 0;
+            int j = 0;
             while ((comps[i] != c) && (i < comps.Length)) i++;
             comps[i] = null;
-            comps[i] = comps[i+1];
+            for(j=i;j<k; j++)
+             comps[j] = comps[j+1];
+
             Array.Resize(ref comps, comps.Length - 1);
             k--;           
         }
