@@ -14,7 +14,7 @@ namespace Exercicio04
 
         public override string ToString()
         {
-            return $" Assunto:  {Assunto}  | Local: {Local}  | Data: {Data}";
+            return $" Assunto:  {Assunto}  | Local: {Local}  | Data: {Data:dd/MM/yyyy}";
         }
     }
 }

@@ -20,13 +20,14 @@ namespace Exercicio04
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Agenda agenda;
         public MainWindow()
         {
             InitializeComponent();
+              agenda = new Agenda();
         }
 
-        private Agenda agenda = new Agenda();
-
+      
         private void Inserir_Click(object sender, RoutedEventArgs e)
         {
             Compromisso c = new Compromisso();
@@ -34,21 +35,31 @@ namespace Exercicio04
             c.Local = txtLocal.Text;
             c.Data = dtData.SelectedDate.Value;
             agenda.Inserir(c);
-
+            List.ItemsSource = agenda.Listar();
         }
 
         private void Excluir_Click(object sender, RoutedEventArgs e)
         {
-
+            if (List.SelectedItem == null)
+                MessageBox.Show("Nenhum Item Selecionado!");
+            else
+            {
+                Compromisso c = (Compromisso)List.SelectedItem;
+                agenda.Excluir(c);
+                List.ItemsSource = agenda.Listar();
+            }
         }
 
         private void Listar_Click(object sender, RoutedEventArgs e)
         {
-
+            List.ItemsSource = agenda.Listar();
         }
 
         private void Pesquisar_Click(object sender, RoutedEventArgs e)
         {
+            int m = int.Parse(txtMes.Text);
+            int a = int.Parse(txtAno.Text);
+            List.ItemsSource = agenda.Pesquisar(m, a);
 
         }
     }

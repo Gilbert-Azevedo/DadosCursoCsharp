@@ -16,12 +16,11 @@ namespace Exercicio04
 
         public void Inserir(Compromisso c)
         {
-            if (k < 10) comps[k++] = c;
-            else
-            {
-                Array.Resize(ref comps, 2 * comps.Length);
-                comps[k++] = c;
-            }
+            if (k > 9) 
+            Array.Resize(ref comps, 2 * comps.Length);
+            
+              comps[k++] = c;
+            
         }
 
         public void Excluir(Compromisso c)
