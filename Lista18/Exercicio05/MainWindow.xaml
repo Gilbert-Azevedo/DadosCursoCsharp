@@ -22,6 +22,6 @@
         <Button Content="Curtir Aplicativo" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Width="95" Click="Curtir_Click"/>
         <TextBlock HorizontalAlignment="Left" Margin="336,75,0,0" TextWrapping="Wrap" Text="Categoria a Pesquisar" VerticalAlignment="Top" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Margin="126,103,0,0" TextWrapping="Wrap" Text="Nº de Curtidas" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtCurt" HorizontalAlignment="Left"  Height="23" Margin="210,98,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
+        <TextBox x:Name="txtCurt" HorizontalAlignment="Left"  Height="23" Margin="210,98,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50" IsReadOnly="True"/>
     </Grid>
 </Window>

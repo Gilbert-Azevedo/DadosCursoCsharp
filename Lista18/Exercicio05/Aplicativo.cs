@@ -25,7 +25,7 @@ namespace Exercicio05
 
         public override string ToString()
         {
-            return $" Nome do aplicativo:   {Nome}  | Categoria:  {Categoria} |  Preço:  {Preco}";
+            return $" Nome do app:  {Nome} | Cat:  {Categoria} |  Preço:  {Preco} | Curtidas: {Curtidas}";
         }
 
     }

@@ -30,6 +30,7 @@ namespace Exercicio05
             Array.Resize(ref apps, apps.Length - 1);
             k--;
         }
+
         public Aplicativo[] Listar()
         {
             Aplicativo[] novosapps = new Aplicativo[k];
@@ -41,14 +42,16 @@ namespace Exercicio05
         }
   
 
-        /* public Aplicativo[] Pesquisar(string cat)
+        public Aplicativo[] Pesquisar(string cat)
          {
              int napps = 0;
              int j = 0;
-             for (int i = 0; i < k; i++)
-                 if (apps[i].Categoria == cat) napps++;
+            for (int i = 0; i < k; i++)
+            {
+                if (apps[i].Categoria == cat) napps++;
+            }
 
-             Aplicativo[] listapesquisa = Aplicativo[napps];
+             Aplicativo[] listapesquisa = new Aplicativo[napps];
 
              for (int i = 0; i < k; i++)
              {
@@ -59,7 +62,7 @@ namespace Exercicio05
              return listapesquisa;
 
          }
-      */
+      
 
 
 

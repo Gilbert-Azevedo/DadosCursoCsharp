@@ -34,6 +34,7 @@ namespace Exercicio05
             novo.Nome = txtNome.Text;
             novo.Categoria = txtCateg.Text;
             novo.Preco = txtPreco.Text;
+            txtCurt.Text = novo.Curtidas.ToString();
             novaloja.Inserir(novo);
            Listapps.ItemsSource = novaloja.Listar();
         }
@@ -41,7 +42,7 @@ namespace Exercicio05
         private void Excluir_Click(object sender, RoutedEventArgs e)
         {
             if (Listapps.SelectedItem == null)
-                MessageBox.Show("Nenhum Item Selecionado!");
+                MessageBox.Show("Nenhum Aplicativo Selecionado!");
             else
             {
                 Aplicativo app = (Aplicativo)Listapps.SelectedItem;
@@ -52,12 +53,28 @@ namespace Exercicio05
 
         private void Pesquisar_Click(object sender, RoutedEventArgs e)
         {
+            string categ = txtCategPesq.Text;
+            if (categ == "")
+                MessageBox.Show("Nenhuma Categoria informada!");
+            else
+            {
+               Listapps.ItemsSource = novaloja.Pesquisar(categ);
+            }
 
         }
 
         private void Curtir_Click(object sender, RoutedEventArgs e)
         {
 
+            if (Listapps.SelectedItem == null)
+                MessageBox.Show("Nenhum Aplicativo Selecionado!");
+            else
+            {
+                Aplicativo app = (Aplicativo)Listapps.SelectedItem;
+                txtCurt.Text = app.Curtidas.ToString();
+                app.Curtir();
+                txtCurt.Text = app.Curtidas.ToString();
+            }
         }
                
         private void Listar_Click(object sender, RoutedEventArgs e)
