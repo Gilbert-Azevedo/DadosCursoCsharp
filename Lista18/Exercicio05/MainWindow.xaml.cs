@@ -74,12 +74,25 @@ namespace Exercicio05
                 txtCurt.Text = app.Curtidas.ToString();
                 app.Curtir();
                 txtCurt.Text = app.Curtidas.ToString();
+                Listapps.ItemsSource = novaloja.Listar();
             }
         }
                
         private void Listar_Click(object sender, RoutedEventArgs e)
         {
            Listapps.ItemsSource = novaloja.Listar();
+        }
+
+        private void Listapps_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (Listapps.SelectedItem != null)
+            {
+                Aplicativo app = (Aplicativo)Listapps.SelectedItem;
+                txtNome.Text = app.Nome;
+                txtCateg.Text = app.Categoria;
+                txtPreco.Text = app.Preco;
+                txtCurt.Text = app.Curtidas.ToString();
+            }
         }
     }
 }
