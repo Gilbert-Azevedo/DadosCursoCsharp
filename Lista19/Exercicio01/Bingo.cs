@@ -8,7 +8,7 @@ namespace Exercicio01
 {
     class Bingo
     {
-        private int numBolas;
+        private int numBolas,proximo;
         private int k;
 
         public int NumBolas {
@@ -18,15 +18,17 @@ namespace Exercicio01
         public void Iniciar(int numBolas)
         {
             NumBolas = numBolas;
+            k = 0;
         }
         public int Proximo()
         {
-            int proximo;
+           
             Random numAleatorio = new Random();
             
             if (k < numBolas)
             {
                 proximo = numAleatorio.Next(1, NumBolas);
+                k++;
             }
             else
             { 
@@ -38,11 +40,15 @@ namespace Exercicio01
         public int[] Sorteados()
         {
             int[] numSorteados = new int[k+1];
-            if (k < NumBolas) numSorteados[k++] = Proximo();
+            if (k < NumBolas) numSorteados[k] = proximo;
 
             return numSorteados;
         }
 
+        public override string ToString()
+        {
+            return $" {proximo} - " ;
+        }
     }
 
 }

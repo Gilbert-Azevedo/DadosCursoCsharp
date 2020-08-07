@@ -36,8 +36,25 @@ namespace Exercicio01
         private void Sortear_Click(object sender, RoutedEventArgs e)
         {
             numsorteado = novoSorteio.Proximo();
-            txtResultado.Text = numsorteado.ToString();  
-            
+            txtResultado.Text = numsorteado.ToString();
+
+            int[] numSorteados = novoSorteio.Sorteados();
+
+            TxtSorteados.Text = "";
+
+            foreach (int i in numSorteados)
+            {
+                TxtSorteados.Text = i.ToString();
+            }
+
+
+            /*
+            for (int i = 0; i < numSorteados.Length; i++)
+            {
+                TxtSorteados.Text = novoSorteio.ToString();
+            }
+                           */
+
         }
 
         
