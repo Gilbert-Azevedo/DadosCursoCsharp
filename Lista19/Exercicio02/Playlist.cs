@@ -32,7 +32,7 @@ namespace Exercicio02
         }
         public Musica[] Listar()
         {
-            Musica[] vetorMusicas = new Musica[k+1];
+            Musica[] vetorMusicas = new Musica[k];
             Array.Copy(musicas, vetorMusicas, k);
 
             return vetorMusicas;
@@ -40,8 +40,7 @@ namespace Exercicio02
         public TimeSpan TempoTotal()
         {
             TimeSpan somaTempo = new TimeSpan();
-            Musica[] mus = new Musica[k + 1];
-            mus = Listar();
+          Musica[] mus = Listar();
             
             for (int i = 0; i < mus.Length; i++)
             {
