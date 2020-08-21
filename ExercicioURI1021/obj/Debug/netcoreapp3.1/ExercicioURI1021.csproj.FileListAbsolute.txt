@@ -1,0 +1,13 @@
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI1021\bin\Debug\netcoreapp3.1\ExercicioURI1021.exe
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI1021\bin\Debug\netcoreapp3.1\ExercicioURI1021.deps.json
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI1021\bin\Debug\netcoreapp3.1\ExercicioURI1021.runtimeconfig.json
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI1021\bin\Debug\netcoreapp3.1\ExercicioURI1021.runtimeconfig.dev.json
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI1021\bin\Debug\netcoreapp3.1\ExercicioURI1021.dll
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI1021\bin\Debug\netcoreapp3.1\ExercicioURI1021.pdb
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI1021\obj\Debug\netcoreapp3.1\ExercicioURI1021.csprojAssemblyReference.cache
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI1021\obj\Debug\netcoreapp3.1\ExercicioURI1021.AssemblyInfoInputs.cache
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI1021\obj\Debug\netcoreapp3.1\ExercicioURI1021.AssemblyInfo.cs
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI1021\obj\Debug\netcoreapp3.1\ExercicioURI1021.csproj.CoreCompileInputs.cache
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI1021\obj\Debug\netcoreapp3.1\ExercicioURI1021.dll
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI1021\obj\Debug\netcoreapp3.1\ExercicioURI1021.pdb
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI1021\obj\Debug\netcoreapp3.1\ExercicioURI1021.genruntimeconfig.cache

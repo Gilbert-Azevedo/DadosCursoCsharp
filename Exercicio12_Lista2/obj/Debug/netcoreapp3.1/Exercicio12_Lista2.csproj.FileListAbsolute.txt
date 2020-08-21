@@ -1,0 +1,13 @@
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio12_Lista2\obj\Debug\netcoreapp3.1\Exercicio12_Lista2.csprojAssemblyReference.cache
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio12_Lista2\obj\Debug\netcoreapp3.1\Exercicio12_Lista2.AssemblyInfoInputs.cache
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio12_Lista2\obj\Debug\netcoreapp3.1\Exercicio12_Lista2.AssemblyInfo.cs
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio12_Lista2\obj\Debug\netcoreapp3.1\Exercicio12_Lista2.csproj.CoreCompileInputs.cache
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio12_Lista2\bin\Debug\netcoreapp3.1\Exercicio12_Lista2.exe
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio12_Lista2\bin\Debug\netcoreapp3.1\Exercicio12_Lista2.deps.json
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio12_Lista2\bin\Debug\netcoreapp3.1\Exercicio12_Lista2.runtimeconfig.json
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio12_Lista2\bin\Debug\netcoreapp3.1\Exercicio12_Lista2.runtimeconfig.dev.json
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio12_Lista2\bin\Debug\netcoreapp3.1\Exercicio12_Lista2.dll
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio12_Lista2\bin\Debug\netcoreapp3.1\Exercicio12_Lista2.pdb
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio12_Lista2\obj\Debug\netcoreapp3.1\Exercicio12_Lista2.dll
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio12_Lista2\obj\Debug\netcoreapp3.1\Exercicio12_Lista2.pdb
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Exercicio12_Lista2\obj\Debug\netcoreapp3.1\Exercicio12_Lista2.genruntimeconfig.cache

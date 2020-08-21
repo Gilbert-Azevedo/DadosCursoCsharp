@@ -1,0 +1,13 @@
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Lista09_Ex02\obj\Debug\netcoreapp3.1\Lista09_Ex02.csprojAssemblyReference.cache
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Lista09_Ex02\obj\Debug\netcoreapp3.1\Lista09_Ex02.AssemblyInfoInputs.cache
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Lista09_Ex02\obj\Debug\netcoreapp3.1\Lista09_Ex02.AssemblyInfo.cs
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Lista09_Ex02\obj\Debug\netcoreapp3.1\Lista09_Ex02.csproj.CoreCompileInputs.cache
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Lista09_Ex02\bin\Debug\netcoreapp3.1\Lista09_Ex02.exe
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Lista09_Ex02\bin\Debug\netcoreapp3.1\Lista09_Ex02.deps.json
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Lista09_Ex02\bin\Debug\netcoreapp3.1\Lista09_Ex02.runtimeconfig.json
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Lista09_Ex02\bin\Debug\netcoreapp3.1\Lista09_Ex02.runtimeconfig.dev.json
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Lista09_Ex02\bin\Debug\netcoreapp3.1\Lista09_Ex02.dll
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Lista09_Ex02\bin\Debug\netcoreapp3.1\Lista09_Ex02.pdb
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Lista09_Ex02\obj\Debug\netcoreapp3.1\Lista09_Ex02.dll
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Lista09_Ex02\obj\Debug\netcoreapp3.1\Lista09_Ex02.pdb
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\Lista09_Ex02\obj\Debug\netcoreapp3.1\Lista09_Ex02.genruntimeconfig.cache

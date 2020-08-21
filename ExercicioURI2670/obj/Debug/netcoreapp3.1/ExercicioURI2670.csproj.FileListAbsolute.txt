@@ -1,0 +1,13 @@
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI2670\obj\Debug\netcoreapp3.1\ExercicioURI2670.csprojAssemblyReference.cache
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI2670\obj\Debug\netcoreapp3.1\ExercicioURI2670.AssemblyInfoInputs.cache
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI2670\obj\Debug\netcoreapp3.1\ExercicioURI2670.AssemblyInfo.cs
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI2670\obj\Debug\netcoreapp3.1\ExercicioURI2670.csproj.CoreCompileInputs.cache
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI2670\bin\Debug\netcoreapp3.1\ExercicioURI2670.exe
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI2670\bin\Debug\netcoreapp3.1\ExercicioURI2670.deps.json
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI2670\bin\Debug\netcoreapp3.1\ExercicioURI2670.runtimeconfig.json
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI2670\bin\Debug\netcoreapp3.1\ExercicioURI2670.runtimeconfig.dev.json
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI2670\bin\Debug\netcoreapp3.1\ExercicioURI2670.dll
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI2670\bin\Debug\netcoreapp3.1\ExercicioURI2670.pdb
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI2670\obj\Debug\netcoreapp3.1\ExercicioURI2670.dll
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI2670\obj\Debug\netcoreapp3.1\ExercicioURI2670.pdb
+C:\Users\1285554\source\repos\jalvaropaiva\DadosCursoCsharp\ExercicioURI2670\obj\Debug\netcoreapp3.1\ExercicioURI2670.genruntimeconfig.cache
